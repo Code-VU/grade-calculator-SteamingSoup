@@ -7,17 +7,19 @@ def calculateGrade():
 
         if hrs >= 0.9 and hrs <= 1.0:
             print('A')
-        elif hrs >= 0.8:
+        elif hrs >= 0.8 and hrs < 0.9:
             print('B')
-        elif hrs >= 0.7:
+        elif hrs >= 0.7 and hrs < 0.8:
             print('C')
-        elif hrs >= 0.6:
+        elif hrs >= 0.6 and hrs < 0.7:
             print('D')
         elif hrs < 0.6 and hrs >= 0.0:
             print('F')
+        else:
+            print('Bad score')
     
     except:
-        print('Bad Score')
+        print('Bad score')
 
     # end assignment
 
@@ -25,4 +27,4 @@ def calculateGrade():
 ## uncomment calculateGrade() and run > python calculateGrade.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-## calculateGrade()
+calculateGrade()
