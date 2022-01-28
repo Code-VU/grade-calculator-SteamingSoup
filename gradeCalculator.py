@@ -3,7 +3,7 @@ def calculateGrade():
     print("Calculating Grade")
     # This first line is provided for you
     try:
-        hrs = float(input("Enter score:"))
+        hrs = float(input("Enter score: "))
 
         if hrs >= 0.9 and hrs <= 1.0:
             print('A')
@@ -27,4 +27,4 @@ def calculateGrade():
 ## uncomment calculateGrade() and run > python calculateGrade.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-calculateGrade()
+## calculateGrade()
